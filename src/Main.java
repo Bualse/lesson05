@@ -61,7 +61,7 @@ public class Main {
         int total = 0;
 
         for (int i = 1; i < 13; i++) {
-            total = total + amountAccumulation;
+            total += amountAccumulation; // total = total + amountAccumulation;
             System.out.println("Месяц " + i + ", сумма накоплений равна " + total + " рублей");
         }
     }
