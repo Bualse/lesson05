@@ -60,7 +60,7 @@ public class Main {
         int amountAccumulation = 29000; //сумма накопления
         int total = 0;
 
-        for (int i = 1; i < 13; i++) {
+        for (int i = 1; i <= 12; i++) {
             total += amountAccumulation; // total = total + amountAccumulation;
             System.out.println("Месяц " + i + ", сумма накоплений равна " + total + " рублей");
         }
@@ -70,9 +70,9 @@ public class Main {
         int amountAccumulation = 29000; //сумма накопления
         int total = 0;
 
-        for (int i = 1; i < 13; i++) {
-            total = total + total / 100;
+        for (int i = 1; i <= 12; i++) {
             total = total + amountAccumulation;
+            total = total + total / 100;
             System.out.println("Месяц " + i + ", сумма накоплений равна " + total + " рублей");
         }
     }
